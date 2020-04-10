@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 
 from sklearn.utils import shuffle
-from defaults import LOCATIONS
+from .default import locations
 
 from tqdm import tqdm
 from keras.models import Sequential
